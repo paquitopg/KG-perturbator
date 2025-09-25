@@ -1,0 +1,16 @@
+# (Optional) Set a seed for reproducibility of random operations
+seed: 42
+
+# --- Basic Perturbations ---
+remove_entities: 40
+add_entities: 0
+remove_edges: 40
+add_edges: 0
+# --- LLM-Based Perturbations ---
+# Enable/disable different types of LLM perturbations
+llm_rename_entities: false
+llm_rename_relations: false
+llm_perturb_entities: false
+
+
+

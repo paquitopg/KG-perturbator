@@ -1,0 +1,29 @@
+[project]
+name = "kg-perturbator"
+version = "0.1.0"
+description = "Small package implementing different Knowledge Graphs perturbations"
+authors = [
+    {name = "Paco Goze",email = "paco.goze@polytehnique.edu"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+networkx = "^3.4.2"
+python-dotenv = "^1.0.1"
+vertexai = ">=1.71.1"
+openai = ">=1.97.1,<2.0.0"
+PyYAML = "^6.0"
+transformers = "^4.53.3"
+torch = "^2.7.1"
+accelerate = "^1.9.0"
+bitsandbytes = "^0.46.1"
+
+[tool.poetry.scripts]
+kg-perturb = "kg_perturbator.cli:main"

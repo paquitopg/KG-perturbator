@@ -1,0 +1,9 @@
+
+provider: "vertexai"
+args:
+  model_name: "gemini-2.0-flash-lite-001"
+  temperature: 0.2
+
+llm_perturb_entities:
+  update_name: false
+  update_description: true

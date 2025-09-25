@@ -1,0 +1,16 @@
+# Azure OpenAI gpt-4.1-mini
+AZURE_OPENAI_API_VERSION=2025-04-14
+AZURE_OPENAI_ENDPOINT=https://sq-consulting-openai.openai.azure.com/
+AZURE_OPENAI_API_KEY="" #replace with your Azure OpenAI API key
+AZURE_OPENAI_DEPLOYMENT_NAME="gpt-4.1-mini"
+AZURE_OPENAI_MODEL_NAME="gpt-4.1-mini"
+
+# Vertex AI (Google)
+GOOGLE_APPLICATION_CREDENTIALS="" #replace with your path to the json file from your Google cloud credentials
+GOOGLE_CLOUD_PROJECT="" #replace with your Google cloud project id
+GOOGLE_CLOUD_LOCATION="us-central1"
+GOOGLE_VERTEXAI_MODEL_NAME=gemini-2.0-flash-lite-001
+
+# HuggingFace
+HUGGINGFACE_API_KEY="" #replace with your HuggingFace API key
+HUGGINGFACE_MODEL_NAME=NousResearch/Llama-2-7b-chat-hf

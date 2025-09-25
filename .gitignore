@@ -1,0 +1,8 @@
+.venv/
+.env
+.env.*
+singular-backup-*.json
+*.json
+!package*.json
+!poetry.lock
+__pycache__/
